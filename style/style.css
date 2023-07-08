@@ -80,6 +80,10 @@ nav a{
 }
 .banner-des {
     margin-top: -20px;
+    
+}
+.cv-btn{
+    border: 2px solid #FD6E0A;
 }
 .cv-btn:hover{
     background-color: #fff;
@@ -94,5 +98,23 @@ nav a{
 .contact-btn:hover{
     background-color: #FD6E0A;
     color: #fff;
-    cursor:;
+    
+}
+/* About css */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+}
+.about-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-des{
+    color:#757575;
+    text-align: center; 
+    font-size: 18px;
 }
