@@ -145,3 +145,29 @@ main{
     font-weight:bold;
     margin-top: 5px;
 }
+#i-do {
+    padding: 0px 150px;
+}
+/* skills section */
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+}
+.skill-info{
+    padding: 30px;
+}
+.skill-des{
+    padding-right: 40px;
+    color: #757575;
+}
+.skill-info{
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.09);
+}
+
+.resume-col-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
