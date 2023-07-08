@@ -89,6 +89,7 @@ nav a{
     background-color: #fff;
     color: #FD6E0A;
     border: 2px solid #FD6E0A;
+    transition: 0.3s
 }
 .contact-btn{
     background-color: #fff;
@@ -98,6 +99,7 @@ nav a{
 .contact-btn:hover{
     background-color: #FD6E0A;
     color: #fff;
+    transition: 0.3s
     
 }
 /* About css */
@@ -117,4 +119,29 @@ nav a{
     color:#757575;
     text-align: center; 
     font-size: 18px;
+}
+/*  main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.about-info .info-title{
+    color:#757575;
+    text-align: center; 
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+.about-info .info-description{
+    color: #474747;
+    text-align: center;
+    font-weight:bold;
+    margin-top: 5px;
 }
