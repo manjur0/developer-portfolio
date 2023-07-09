@@ -165,9 +165,50 @@ border-radius: 5px;
 background: #FFF;
 box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.09);
 }
-
+/* Resume section css */
 .resume-col-title {
     color: #474747;
     font-size: 30px;
     font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px ;
+}
+.resume-item-title{
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.resume-item-institute{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-des{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 50px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+/* footer css */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 120px 200px;
+}
+.footer-des{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    padding: 0px 80px;
 }
